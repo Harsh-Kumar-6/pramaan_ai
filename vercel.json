@@ -3,7 +3,8 @@
   "services": {
     "app": {
       "root": ".",
-      "entrypoint": "pramaan.api.server:app"
+      "entrypoint": "Dockerfile.vercel",
+      "runtime": "container"
     },
     "frontend": {
       "root": "frontend",
