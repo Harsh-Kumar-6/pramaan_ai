@@ -3,7 +3,6 @@
   "services": {
     "app": {
       "root": ".",
-      "runtime": "python",
       "entrypoint": "pramaan.api.server:app"
     },
     "frontend": {
